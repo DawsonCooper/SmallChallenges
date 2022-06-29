@@ -6,7 +6,7 @@ let arrLen = unsorted.length;
 
 let tempSmall = unsorted[0];
 let temp;
-
+//this is supposed to be selection sort ans is not working will find out later must study now
 for (let i = 0; i < arrLen; i++) {
     for (let j = i; j < arrLen; j++) {
         if (tempSmall > unsorted[j]) {
